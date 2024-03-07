@@ -7,10 +7,8 @@ sns.set_theme(style='dark')
  # # # #
 
 # import dataset
-# file_path = "/Users/kaysaazzahra/Documents/submission/dashboard/hour.csv"
 hour_df = pd.read_csv("hour.csv")
 
-# file_path2 = "/Users/kaysaazzahra/Documents/submission/dashboard/day.csv"
 day_df = pd.read_csv("day.csv")
 
 # mengecek nilai kosong
